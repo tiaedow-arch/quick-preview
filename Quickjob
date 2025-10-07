@@ -1,0 +1,21 @@
+name: quickjob_app
+description: Micro-Job Marketplace MVP
+publish_to: 'none'
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.11.0
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.0.0
+  provider: ^6.0.5
+  image_picker: ^1.0.3
+  google_maps_flutter: ^2.3.0
+  flutter_chat_ui: ^1.3.0
+  flutter_chat_types: ^4.0.0
+  webview_flutter: ^4.2.1
+flutter:
+  assets:
+    - assets/placeholder.png
